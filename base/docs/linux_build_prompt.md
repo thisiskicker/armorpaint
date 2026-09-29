@@ -1,5 +1,7 @@
 Prompt for an AI coding agent (or a checklist for a human) to build and run ArmorPaint on Linux x64. Verified on Ubuntu 24.04 with clang 18, in a headless container with no GPU.
 
+The same steps are automated by `build_linux.sh` in the repository root (`./build_linux.sh --deps --test`), which also packages `dist/ArmorPaint-linux-x64-<version>.tar.gz`. The `Linux Build` workflow runs it on every push and uploads that tarball as a downloadable artifact.
+
 ---
 
 **Task: Build ArmorPaint from this repository for Linux x64 and prove the binary runs.**

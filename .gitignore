@@ -2,3 +2,4 @@
 paint/plugins/external
 .vscode
 *.DS_Store
+dist/
